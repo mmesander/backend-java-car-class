@@ -13,7 +13,7 @@ public class Car {
         this.carCilinder = carCilinder;
     }
 
-    public void message() {
+    public void carMessage() {
         System.out.println("Deze " + carBrand + " " + carType + " is " + carColor);
     }
 }

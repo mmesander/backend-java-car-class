@@ -4,8 +4,8 @@ public class Main {
         Car car2 = new Car("Toyota", "Aygo", "2016", "blauw", "1.2");
         Car car3 = new Car("Volvo", "CX90", "2022", "zwart", "2.0");
 
-        car2.message();
-        car1.message();
-        car3.message();
+        car1.carMessage();
+        car2.carMessage();
+        car3.carMessage();
     }
 }
